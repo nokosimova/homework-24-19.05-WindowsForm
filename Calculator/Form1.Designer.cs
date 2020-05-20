@@ -51,7 +51,7 @@
             this.calcWindow.Name = "calcWindow";
             this.calcWindow.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.calcWindow.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.calcWindow.Size = new System.Drawing.Size(273, 129);
+            this.calcWindow.Size = new System.Drawing.Size(273, 85);
             this.calcWindow.TabIndex = 0;
             this.calcWindow.Text = "0";
             this.calcWindow.TextChanged += new System.EventHandler(this.calcWindow_TextChanged);
@@ -197,6 +197,7 @@
             this.coma.TabIndex = 15;
             this.coma.Text = ",";
             this.coma.UseVisualStyleBackColor = true;
+            this.coma.Click += new System.EventHandler(this.coma_Click);
             // 
             // Calculator
             // 

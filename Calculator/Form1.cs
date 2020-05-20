@@ -77,5 +77,10 @@ namespace Calculator
             if (calcWindow.Text == "0") calcWindow.Text = "";
             calcWindow.Text = calcWindow.Text + '9';
         }
+
+        private void coma_Click(object sender, EventArgs e)
+        {
+            calcWindow.Text = calcWindow.Text + ',';
+        }
     }
 }
